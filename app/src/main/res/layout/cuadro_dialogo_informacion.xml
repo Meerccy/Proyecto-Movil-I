@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="490dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/degradado"
+    android:layout_gravity="center">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        app:lottie_imageAssetsFolder="assets"
+        app:lottie_fileName="informacion.json"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"/>
+
+    <TextView
+        android:text=" Una aplicación de bloc de notas puede ayudarte a mantener tus pensamientos, ideas y listas de tareas organizadas en un solo lugar. "
+        android:gravity="center"
+
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/worksans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:text="Soporte: Santos0davalos@gmail.com"
+        android:gravity="center"
+
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/worksans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        />
+
+
+
+    <Button
+        android:id="@+id/EntendidoInfo"
+        android:text="@string/EntendidoInfo"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/worksans"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

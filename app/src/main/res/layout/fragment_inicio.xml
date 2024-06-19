@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:background="@drawable/degradado"
+    android:layout_width="300dp"
+    android:layout_height="500dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+
+    tools:context=".InicioFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_centerHorizontal="true"
+
+        android:text="P R O G R A M A C I O N  M O V I L  I"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="@font/worksans"
+        />
+
+
+    <ImageView
+        android:id="@+id/avatarImage"
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+
+        android:layout_marginTop="0dp"
+        android:src="@drawable/avatar"
+        android:layout_marginBottom="8dp"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_centerHorizontal="true"
+
+        android:text="I N T E G R A N T E S"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="@font/worksans"
+        android:layout_marginBottom="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Primer CardView -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="35dp"
+            app:cardCornerRadius="8dp">
+
+            <!-- Contenido del primer CardView -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:drawableStart="@drawable/icono_nombres"
+                android:text="Luis Ramirez Viscarra "
+                android:fontFamily="@font/worksans"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Segundo CardView -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginTop="12dp"
+            android:layout_height="35dp"
+            app:cardCornerRadius="8dp">
+
+            <!-- Contenido del segundo CardView -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:drawableStart="@drawable/icono_nombres"
+                android:text="Nelson Daniel Garcia"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:fontFamily="@font/worksans"
+                />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginTop="12dp"
+            android:layout_height="35dp"
+            app:cardCornerRadius="8dp">
+
+            <!-- Contenido del segundo CardView -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:drawableStart="@drawable/icono_nombres"
+                android:text="Pablo Guitierrez Chambi"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:fontFamily="@font/worksans"
+                />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginTop="12dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="15dp"
+            app:cardCornerRadius="8dp">
+
+            <!-- Contenido del segundo CardView -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:drawableStart="@drawable/icono_nombres"
+                android:text="Jorge Aguilar Triveño"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:fontFamily="@font/worksans"
+                android:textSize="16sp"
+
+                />
+
+
+        </androidx.cardview.widget.CardView>
+        <Button
+            android:id="@+id/EntendidoInfo1"
+            android:text="@string/EntendidoInfo"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
